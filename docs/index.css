@@ -1,4 +1,37 @@
 *
 {
-    background-color: darkgray;
+    /* background-color: lightgray; */
+}
+
+.nav-bar
+{
+    background-color: rgb(61, 85, 107);
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo
+{
+    text-align: left;
+    color: lightblue;
+}
+
+.tabs
+{
+    text-align: right;
+}
+
+a
+{
+    color: lightblue;
+}
+
+a:hover 
+{
+    color: white;
+}
+
+div{
+    border: 2px solid green;
 }
