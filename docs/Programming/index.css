@@ -1,5 +1,10 @@
-.page-contents
+*
 {
-    text-align: center;
-    background-color: lightgrey; 
+    align-items: center;
+    justify-content: center;
+}
+
+iframe
+{
+    
 }
