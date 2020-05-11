@@ -1,10 +1,12 @@
 $(document).ready(function()
 {
+  // TODO doesnt animate fade in and out on first click
+
     $(".submit-button").click(function()
     {
         $(".modal").toggle().animate({
             opacity: "1",
-          }, 1000)
+          }, 200)
     });
 
     

@@ -1,7 +1,6 @@
-*
-{
-    /* background-color: lightgray; */
-}
+/* This file will be placed on everypage and contains
+styling for the top and bottom navigation bar and other
+styling that is used across all pages */
 
 .nav-bar
 {
@@ -20,7 +19,7 @@
     justify-content: center;
     align-items: center;
 
-    position: fixed;
+    
     bottom: 0;
     left: 0;
     width: 100%;
@@ -33,19 +32,14 @@
 
 .page-content
 {
-    background-color: aqua;
+    background-color: lightgray;
     width: 80%;
+    margin: auto;
 }
 
 .logo
 {
-    text-align: left;
     color: lightblue;
-}
-
-.tabs
-{
-    text-align: right;
 }
 
 a
@@ -56,9 +50,4 @@ a
 a:hover 
 {
     color: white;
-}
-
-div
-{
-    border: 2px solid green;
 }
