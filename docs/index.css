@@ -4,12 +4,17 @@ styling that is used across all pages */
 
 /* TODO make bottom nav bar show at the bottom of the page but not over html elements */
 
+body{
+    margin: 0px;
+}
+
 .nav-bar
 {
     background-color: rgb(61, 85, 107);
     font-size: 2vw;
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .bottom-bar
@@ -48,6 +53,8 @@ styling that is used across all pages */
 a
 {
     color: lightblue;
+    text-decoration: none;
+    margin: 5px
 }
 
 a:hover 
@@ -58,4 +65,9 @@ a:hover
 body
 {
     font-family: cursive;
+}
+
+a
+{
+    
 }
