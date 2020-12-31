@@ -44,7 +44,7 @@ $(document).ready(function(){
                 $(this).fadeTo(500,0);
             }
           }
-          */
+*/          
         });
       }).scroll(); //invoke scroll-handler on page-load
     
